@@ -2,6 +2,9 @@
     "name": "ts-practice",
     "version": "1.0.0",
     "private": false,
+    "scripts": {
+        "test": "jest --coverage=true --collectCoverage=true --testRegex test/.*.test.ts --collectCoverageFrom=test/**/*.ts"
+    },
     "dependencies": {
         "axios": "^0.21.1",
         "ramda": "^0.27.1"
