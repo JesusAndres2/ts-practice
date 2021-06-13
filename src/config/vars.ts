@@ -11,5 +11,15 @@ export default {
         sms: "sms/",
         email: "email/",
         timer: "timer/"
-    }
+    },
+    incomingActions: {
+        timeout: "",
+        ack: "",
+        setHealthy: "",
+        setUnHealthy: ""
+    },
+    incomingRoutes: {
+        target: "",
+        pager: ""
+    },
 }
