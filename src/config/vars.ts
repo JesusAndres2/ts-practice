@@ -4,6 +4,12 @@ export default {
         pager: "pager/"
     },
     baseUrls: {
-        dataServices: "https://db-connector-path/"
+        dataServices: "https://db-connector-path/",
+        notifications: "https://notifications-endpoint/"
+    },
+    notificationsPaths: {
+        sms: "sms/",
+        email: "email/",
+        timer: "timer/"
     }
 }
